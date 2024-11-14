@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" version="24.8.6">
   <diagram name="Page-1" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
-    <mxGraphModel dx="2369" dy="11323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2722" dy="11563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,16 +56,16 @@
           <mxGeometry y="68" width="160" height="82" as="geometry" />
         </mxCell>
         <mxCell id="WPdiobrcStu9vZ0IrCRy-216" value="&lt;div&gt;template&amp;lt; uint Dimension,&lt;/div&gt;&lt;div&gt;typename T&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Vector&lt;/font&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-790" y="-9680" width="180" height="160" as="geometry" />
+          <mxGeometry x="-790" y="-9680" width="200" height="220" as="geometry" />
         </mxCell>
         <mxCell id="WPdiobrcStu9vZ0IrCRy-217" value="&amp;nbsp;+ Vector: std::tuple with dimension elements" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WPdiobrcStu9vZ0IrCRy-216">
-          <mxGeometry y="60" width="180" height="50" as="geometry" />
+          <mxGeometry y="60" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WPdiobrcStu9vZ0IrCRy-218" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="WPdiobrcStu9vZ0IrCRy-216">
-          <mxGeometry y="110" width="180" height="8" as="geometry" />
+          <mxGeometry y="110" width="200" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="WPdiobrcStu9vZ0IrCRy-219" value="+ apply(Point&amp;lt;Dimension, T&amp;gt;)&amp;nbsp; -&amp;gt; Point&amp;lt;Dimension, T&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WPdiobrcStu9vZ0IrCRy-216">
-          <mxGeometry y="118" width="180" height="42" as="geometry" />
+        <mxCell id="WPdiobrcStu9vZ0IrCRy-219" value="&lt;div&gt;+ apply(Point&amp;lt;Dimension, T&amp;gt;)&amp;nbsp; -&amp;gt; Point&amp;lt;Dimension, T&amp;gt;&lt;/div&gt;&lt;div&gt;+ Vector(Point&amp;lt;Dimension, T&amp;gt;, Point&amp;lt;Dimension, T&amp;gt;) -&amp;gt; this&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ GetMagnitude() -&amp;gt; Vector&amp;lt;1, T&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ typical maths operators&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WPdiobrcStu9vZ0IrCRy-216">
+          <mxGeometry y="118" width="200" height="102" as="geometry" />
         </mxCell>
         <mxCell id="WPdiobrcStu9vZ0IrCRy-220" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-1400" y="-10520" width="950" height="670" as="geometry" />
